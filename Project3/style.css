@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-color: rgb(42, 44, 46);
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8px;
+}
+nav .menu-img{
+    width: 80px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: rgb(25, 160, 120);
+    border-radius: 20px;
+}
+nav .logo{
+    width: 100px;
+    cursor: pointer;
+    
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+   
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 40px;
+    letter-spacing: 3px;
+
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'DM Serif Text', serif;
+    text-transform: uppercase;
+    
+}
+button{
+    background: rgb(198, 231, 221);
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    transition: 0.5s;
+    
+}
+button span{
+    display: block;
+    background: rgb(255, 255, 255);
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 4px;
+    transition: 0.5s;
+}
+.lamp-container{
+    position: absolute;
+    top: -80px;
+    left: 30%;
+    width: 200px;
+}
+
+.lamp{
+    width: 300px;
+    height: 600px;
+}
+
+.light{
+    position: absolute;
+    top: 97%;
+    left: 66%;
+    transform: translate(-50%);
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+.text-container{
+    width: 20%;
+    margin-top: 200px;
+    margin-left: 1000px;
+    font-family: 'DM Serif Text', serif;
+}
+.text-container h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.text-container a{
+    text-decoration: none;
+    background-color: rgb(27, 128, 102);
+    padding: 14px 30px;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-family: 'DM Serif Text', serif;
+    
+}
+
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 200px;
+  
+}
+
+.control .line{
+    border: 1px solid rgb(255, 255, 255);
+    width: 1400px;
+    height: 10px;
+    background: white;
+    margin: 0 20px;
+    border-radius: 4px;
+    
+}
+
+.control .line span{
+    width: 50%;
+    height: 11px;
+    margin-top: -2px;
+    border-radius: 8px;
+    background: rgb(25, 160, 120);
+    display: block;
+    
+}
+
+.active{
+    background: rgb(49, 224, 57);
+    transition: 0.5s;
+
+}
+.active span{
+background: white;
+    margin-left: 41px;
+    transition: 0.5s;
+
+}
+
+.on{
+    opacity: 1;
+    transition: 0.5s;
+}
+
